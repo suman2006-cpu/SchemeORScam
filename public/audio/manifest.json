@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-11-22T12:26:47.240Z",
+  "provider": "browser-speech-synthesis-fallback",
+  "phrases": [
+    {
+      "id": "verdict_official_te",
+      "lang": "te",
+      "text": "అధికారికం. ఈ సైట్‌లో కనిపించే వాటినే చేయండి.",
+      "file": null
+    },
+    {
+      "id": "verdict_not_verified_te",
+      "lang": "te",
+      "text": "నిర్ధారణ కాలేదు. ఇంకా ఏమీ చేయకండి. గ్రామ సచివాలయంలో లేదా వ్యవసాయ అధికారిని అడగండి.",
+      "file": null
+    },
+    {
+      "id": "verdict_likely_fake_te",
+      "lang": "te",
+      "text": "ఇది మోసం కావచ్చు. క్లిక్ చేయకండి. OTP లేదా డబ్బు ఎవరికీ పంపకండి.",
+      "file": null
+    },
+    {
+      "id": "rescue_1930_te",
+      "lang": "te",
+      "text": "వెంటనే 1930కి కాల్ చేయండి లేదా cybercrime.gov.in లో ఫిర్యాదు చేయండి.",
+      "file": null
+    }
+  ],
+  "note": "Configure SARVAM_API_KEY or BHASHINI credentials to synthesize static MP3/WAV assets into /public/audio."
+}

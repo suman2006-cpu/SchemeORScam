@@ -1,0 +1,56 @@
+:root {
+  /* Light-only village notice board & printed paper palette (Section 7) */
+  --paper: #F2F4EF;
+  --sheet: #FBFBF8;
+  --ink: #16202A;
+  --ink-soft: #4A5560;
+  --rule: #C9CEC4;
+  --marker: #FFD84D;
+
+  /* Verdict colours — strictly for verdict elements */
+  --ok: #1F6B3B;
+  --ok-bg: #E1EEE3;
+  --warn: #8A5300;
+  --warn-bg: #FBEBC8;
+  --bad: #B3261E;
+  --bad-bg: #F8DEDA;
+
+  /* Typography across all 6 supported scripts */
+  --font-display-te: "Mandali", "Hind Guntur", sans-serif;
+  --font-display-en: "Source Serif 4", Georgia, serif;
+  --font-body: "Hind Guntur", "Noto Sans Devanagari", "Noto Sans Tamil", "Noto Sans Malayalam", "Noto Sans Kannada", sans-serif;
+  --font-body-hi: "Noto Sans Devanagari", sans-serif;
+  --font-body-ta: "Noto Sans Tamil", sans-serif;
+  --font-body-ml: "Noto Sans Malayalam", sans-serif;
+  --font-body-kn: "Noto Sans Kannada", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Defined type scale: 14 / 16 / 18 / 22 / 30 / 44 */
+  --text-14: 14px;
+  --text-16: 16px;
+  --text-18: 18px;
+  --text-22: 22px;
+  --text-30: 30px;
+  --text-44: 44px;
+
+  /* Shape: 3px on controls, 0 on sheets */
+  --radius-control: 3px;
+  --radius-sheet: 0px;
+
+  /* Borders & spacing */
+  --border-sheet: 1.5px solid var(--ink);
+  --border-rule: 1px solid var(--rule);
+  --focus-ring: 3px solid var(--ink);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  --rail-width: 220px;
+  --mobile-nav-height: 68px;
+}

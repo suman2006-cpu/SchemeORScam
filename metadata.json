@@ -1,0 +1,10 @@
+{
+  "name": "నిజమా? మోసమా? (Nijama? Mosama?)",
+  "description": "Telugu-first scheme-or-scam checker for rural families: verify links and messages, find official government processes, and get a 60-minute rescue checklist.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
